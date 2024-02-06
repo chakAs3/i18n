@@ -1,0 +1,12 @@
+{
+    "hello": "Ahoj",
+    "goodbye": "Dovidenia",
+    "thank_you": "Ďakujem",
+    "yes": "Áno",
+    "no": "Nie",
+    "button": {
+        "submit": "Odoslať",
+        "cancel": "Zrušiť",
+        "label": "Tlačidlo"
+    }
+}
