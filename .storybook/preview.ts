@@ -14,7 +14,7 @@ const pinia = createPinia();
 setup((app: App) => {
 
   const i18n = createI18n({
-    locale: "sk",
+    locale: "en",
     messages: {
       sk: skLocale,
       en: enLocale,

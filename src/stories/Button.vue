@@ -4,11 +4,11 @@
   </div>
   <br>
   <button type="button" :class="classes" @click="onClick" :style="style">
-    {{ $t('button.label') }}
+    {{ t('button.label') }}
   </button>
   <div>
-   <h1> {{ $t('hello') }} </h1>
-   <h2> {{ $t('thank_you') }}</h2>
+   <h1> {{ t('hello') }} </h1>
+   <h2> {{ t('thank_you') }}</h2>
   </div>
 </template>
 
@@ -54,4 +54,6 @@ const style = computed(() => ({
 const onClick = () => {
   emit("click", 1)
 };
+
+const { t } = useI18n() // 
 </script>
